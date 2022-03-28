@@ -53,7 +53,7 @@ proc renderHead*(prefs: Prefs; cfg: Config; titleText=""; desc=""; video="";
     link(rel="icon", type="image/png", sizes="32x32", href="/favicon.png")
     link(rel="icon", type="image/png", sizes="16x16", href="/favicon.png")
     link(rel="manifest", href="/site.webmanifest")
-    link(rel="mask-icon", href="/safari-pinned-tab.svg", color="#9969e7")
+    link(rel="mask-icon", href="/safari-pinned-tab.svg", color="#ffade2")
     link(rel="search", type="application/opensearchdescription+xml", title=cfg.title,
                             href=opensearchUrl)
 

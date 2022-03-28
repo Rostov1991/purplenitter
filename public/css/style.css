@@ -138,7 +138,7 @@
 
 .gallery-gif video {
   max-height: 530px;
-  background-color: #101010; }
+  background-color: #56242f; }
 
 .still-image {
   max-height: 379.5px;
@@ -1359,32 +1359,32 @@ input::-webkit-datetime-edit-year-field:focus {
     max-height: 365px !important; } }
 
 body {
-  --bg_color: #19151b;
+  --bg_color: #56242f;
   --fg_color: #F8F8F2;
   --fg_faded: #F8F8F2CF;
-  --fg_dark: #9969e7;
-  --fg_nav: #9969e7;
-  --bg_panel: #1f1d23;
-  --bg_elements: #121212;
-  --bg_overlays: #241c29;
-  --bg_hover: #2f2932;
-  --grey: #888889;
-  --dark_grey: #404040;
-  --darker_grey: #2f2932;
-  --darkest_grey: #2b2230;
-  --border_grey: #462d41;
-  --accent: #9969e7;
-  --accent_light: #dec9ff;
+  --fg_dark: #ffade2;
+  --fg_nav: #ffade2;
+  --bg_panel: #56242f;
+  --bg_elements: #56242f;
+  --bg_overlays: #4d212f;
+  --bg_hover: #56242f;
+  --grey: #56242f;
+  --dark_grey: #56242f;
+  --darker_grey: #56242f;
+  --darkest_grey: #56242f;
+  --border_grey: #ffbdc8;
+  --accent: #ffade2;
+  --accent_light: #ffcce1;
   --accent_dark: #a8002a;
-  --accent_border: #9969e7;
+  --accent_border: #ffade2;
   --play_button: #a8002a;
-  --play_button_hover: #9969e7;
+  --play_button_hover: #ffade2;
   --more_replies_dots: #a8002a;
   --error_red: #a8002a;
-  --verified_blue: #6d5686;
+  --verified_mark: #ffbdc8;
   --icon_text: #F8F8F2;
   --tab: #F8F8F2;
-  --tab_selected: #9969e7;
+  --tab_selected: #ffade2;
   --profile_stat: #F8F8F2;
   background-color: var(--bg_color);
   color: var(--fg_color);
@@ -1461,7 +1461,7 @@ ul {
 
 .verified-icon {
   color: var(--icon_text);
-  background-color: var(--verified_blue);
+  background-color: var(--verified_mark);
   border-radius: 50%;
   flex-shrink: 0;
   margin: 2px 0 3px 3px;
