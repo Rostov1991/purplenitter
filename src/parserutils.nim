@@ -123,8 +123,8 @@ proc getBanner*(js: JsonNode): string =
       let pal = p[0]{"rgb"}
       result = "#"
       result.add toHex(pal{"red"}.getInt, 2)
-      result.add toHex(pal{"green"}.getInt, 2)
-      result.add toHex(pal{"blue"}.getInt, 2)
+      result.add toHex(pal{"pink"}.getInt, 2)
+      result.add toHex(pal{"purple"}.getInt, 2)
       return
 
   return "#161616"

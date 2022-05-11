@@ -1,3 +1,4 @@
 #!/usr/bin/env sh
 
-/opt/purplenitter/nitter
+nohup redis-server &
+./nitter

@@ -38,7 +38,7 @@ body {
     --more_replies_dots: #{$more_replies_dots};
     --error_red: #{$error_red};
 
-    --verified_blue: #{$verified_blue};
+    --verified_mark: #{$verified_mark};
     --icon_text: #{$icon_text};
 
     --tab: #{$fg_color};
@@ -140,7 +140,7 @@ ul {
 
 .verified-icon {
     color: var(--icon_text);
-    background-color: var(--verified_blue);
+    background-color: var(--verified_mark);
     border-radius: 50%;
     flex-shrink: 0;
     margin: 2px 0 3px 3px;

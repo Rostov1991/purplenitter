@@ -10,7 +10,7 @@ import routes/[
   preferences, timeline, status, media, search, rss, list,
   unsupported, embed, resolver, router_utils]
 
-const instancesUrl = "https://github.com/Varulv1997/purplenitter/wiki/Instances"
+const instancesUrl = "https://github.com/Rostov1991/purplenitter/wiki/Instances"
 
 const configPath {.strdefine.} = "./nitter.conf"
 let (cfg, fullCfg) = getConfig(configPath)
